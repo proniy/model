@@ -10,7 +10,6 @@ namespace RandomNumberGenerator
             int randomNumber = random.Next(1, 101); // Генерация случайного числа от 1 до 100
 
             Console.WriteLine($"Случайное число: {randomNumber}");
-            Console.ReadLine();
         }
     }
 }
